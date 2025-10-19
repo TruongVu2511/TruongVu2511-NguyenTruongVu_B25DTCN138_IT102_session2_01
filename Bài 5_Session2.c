@@ -12,8 +12,7 @@ int main() {
   
     int tongNguyen = a + b + (int)c;  
 
+   
     
-     return 0;
 }
-
 

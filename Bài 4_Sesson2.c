@@ -9,7 +9,6 @@ int main() {
     int chuVi = (chieuDai + chieuRong) * 2;
     int dienTich = chieuDai * chieuRong;
 
-    return 0;
+   
 }
-
 
