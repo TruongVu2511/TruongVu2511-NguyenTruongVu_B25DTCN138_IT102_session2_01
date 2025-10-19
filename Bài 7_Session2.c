@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    
     int number = 12345;
-    int tong = 0;
-
+    int sum; 
     
-    int temp = number;
+    int unit1 = number % 10;
+    int unit2 = (number / 10) % 10;
+    int unit3 = (number / 100) % 10;
+    int unit4 = (number / 1000) % 10;
+    int unit5 = (number / 10000) % 10;
 
-    
-    while (temp > 0) {
-        tong += temp % 10;  
-        temp = temp / 10;   
-    }
+    sum = unit1 + unit2 + unit3 + unit4 + unit5;
 
-    
+    return 0;
 }
+
 
