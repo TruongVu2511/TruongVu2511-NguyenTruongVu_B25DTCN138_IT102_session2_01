@@ -1,20 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    
     int number = 12345;
-    int result = 0;
-
     
-    int temp = number;
-
+    int unit1 = number % 10; 
+    int next_number= number/10
+    int unit2 = (next_number / 10) % 10;     
+    int unit3 = (next_number / 100) % 10;   
+    int unit4 = (next_number / 1000) % 10;   
+    int unit5 = (next_number / 10000) % 10; 
     
-    while (temp > 0) {
-        int digit = temp % 10;         
-        result = result * 10 + digit;  
-        temp = temp / 10;              
-    }
-
-   
+    
+    int result = unit2 * 1000 + unit3 * 100 + unit4 * 10 + unit5;
+    
+    
+    return 0;
 }
-
