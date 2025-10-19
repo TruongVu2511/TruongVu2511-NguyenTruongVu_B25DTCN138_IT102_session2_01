@@ -7,5 +7,6 @@ int main() {
 
     S = sqrt(a * a + b * b) / (c + 1.0) + (double)(a * b) / c - sqrt(fabs(a - b) + c * c);
 
-    
+     return 0;  
 }
+
